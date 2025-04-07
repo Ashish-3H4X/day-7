@@ -28,4 +28,12 @@ const person1 = {
    console.log(typeof(myarr))
    console.log(myarr)
 
+///  using of for (let [fruit ,value] of Object.entries(fruits) this entries () to display the values of object 
+   const fruits = {Bananas:300, Oranges:200, Apples:500};
 
+     let values =" ";
+     for (let [fruit ,value] of Object.entries(fruits)) {
+         values += fruit +":" + value  +"," ;
+     };
+      console.log(values);
+      
