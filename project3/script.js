@@ -41,3 +41,22 @@ const person1 = {
 
    console.log(person1.fullName());
    
+
+    // using javaScript method that is  toUpperCase :
+
+    
+
+
+const person2 = {
+    firstName: "Rahul",
+    lastName: "Verma",
+    age: 20,
+    id: 5566
+
+    }
+ person2.fullName = function (){
+      return (this.firstName + " " + this.lastName).toUpperCase();
+ };
+
+   console.log(person2.fullName());
+   
