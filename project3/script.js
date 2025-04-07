@@ -1,0 +1,26 @@
+const person = {
+    firstName: "Rahul",
+    lastName: "Verma",
+    age: 20,
+    id: 5566,
+    fullName: function (params) {
+        return this.firstName +""+ this.lastName;
+
+    }
+
+};
+ demo.innerHTML =`const person = {<br>
+  firstName: "John",<br>
+  lastName: "Doe",<br>
+  id: 5566,<br>
+  fullName: function() {<br>
+    return this.firstName + " " + this.lastName;<br>
+  }
+};<br>
+ 1 Line :  person.fullName<br>
+ 2 Line :person.fullName() <br>
+ Result : <br>
+` 
+demoresult.innerHTML=` 1 Line :  ${person.fullName}<br>
+ 2 Line :${person.fullName()}`
+demoresult.style.color="red"
