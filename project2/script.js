@@ -31,3 +31,7 @@ objectpr2.innerHTML= x
     console.log(myObj.myCars.car2);
     console.log(myObj.myCars.car3);
     
+    
+let p1 = "myCars";
+let p2 = "car1";
+console.log(myObj[p1][p2]);
