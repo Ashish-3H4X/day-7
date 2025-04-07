@@ -24,3 +24,20 @@ const person = {
 demoresult.innerHTML=` 1 Line :  ${person.fullName}<br>
  2 Line :${person.fullName()}`
 demoresult.style.color="red"
+
+
+
+
+const person1 = {
+    firstName: "Rahul",
+    lastName: "Verma",
+    age: 20,
+    id: 5566
+
+    }
+ person1.fullName = function (){
+      return this.firstName + " " + this.lastName;
+ };
+
+   console.log(person1.fullName());
+   
