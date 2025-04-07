@@ -55,3 +55,39 @@ emptyDemo3.innerHTML= person.eyeColor;
    newdemo2.innerHTML=student.lastName;
    newdemo3.innerHTML=student.age;
    newdemo4.innerHTML=student.eyeColor;
+
+///  accessing method of the object
+  accsedemo.innerHTML=`accsedemo1.innerHTML = student.firstName;<br>
+
+accsedemo2.innerHTML=student["firstName"]<br>
+Result :
+`
+accsedemo1.innerHTML = student.firstName;
+accsedemo2.innerHTML=student["firstName"]
+
+
+/// Javscript object method 
+
+ const  fruit ={
+   fruitName :"Apple",
+   fruitColor :"Red",
+   fruitTaste: "Sweet",
+ fullDetail: function () {
+     return this.fruitName+","+this.fruitColor+","+this.fruitTaste    
+ },
+
+ }
+
+ methodDemo.innerHTML=` const  fruit ={<br>
+   fruitName :"Apple",<br>
+   fruitColor :"Red",<br>
+   fruitTaste: "Sweet",<br>
+ fullDetail: function () {<br>
+     return this.fruitName+","+this.fruitColor+","+this.fruitTaste  <br>  
+ },<br>
+
+ }<br>
+
+ Result :<br>
+ ${fruit.fullDetail()}
+`
