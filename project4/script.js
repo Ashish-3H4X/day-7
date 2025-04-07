@@ -37,3 +37,17 @@ const person1 = {
      };
       console.log(values);
       
+
+
+       /// using JSON. stringify( object_Name ) to display  the object value 
+
+       const person3 = {
+        name: "John",
+        age: 30,
+        city: "New York"
+      };
+      
+
+        let mystring = JSON.stringify(person);
+        console.log(mystring);
+        
